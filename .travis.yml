@@ -9,9 +9,6 @@ services:
     - docker
 
 env:
-    - distribution: cern/slc6-base
-      distribution_name: slc6-base
-      version: latest
     - distribution: centos
       distribution_name: centos
       version: 7
